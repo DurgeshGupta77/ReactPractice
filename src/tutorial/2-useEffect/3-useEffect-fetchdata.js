@@ -29,7 +29,7 @@ const FetchData = () => {
                         <img src={avatar_url} alt={login} style={{ borderRadius: '50%', width: '100px', height: '100px', paddingRight: '30px' }}></img>
                         <div>
                             <h4 style={{ textTransform: 'capitalize' }}>{login}</h4>
-                            <a href={html_url} target={'_blank'} style={{ textDecoration: 'none', color: '#808080' }}>Profile</a>
+                            <a href={html_url} target={'_blank'} rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#808080' }}>Profile</a>
                         </div>
                     </li>
                 );
